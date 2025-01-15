@@ -26,3 +26,8 @@ You are given the monthly rainfall (in mm) for a year in a specific region. The 
 
 
 ---
+
+Write a Python program to plot a bar chart showing the rainfall distribution over the months. Add appropriate labels, a title, and use a visually appealing color scheme.
+
+
+---

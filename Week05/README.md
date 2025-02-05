@@ -15,19 +15,19 @@ This repository contains various examples demonstrating how to use **sockets** a
 - The server listens for connections, and the client sends a message.
 - The server responds and closes the connection.
 
-📂 [Example: Inter-Process Communication using Sockets](./inter_process_communication/README.md)
+📂 [Example: Inter-Process Communication using Sockets](https://github.com/sojoudian/BTP405_Winter25_NBB/tree/master/Week05/socketExp/exp1)
 
 ### 2. Object Serialization using `pickle` over Sockets
 - Demonstrates how to serialize Python objects with `pickle` and transmit them over a socket.
 - The server receives a pickled object from the client, deserializes it, and processes it.
 
-📂 [Example: Object Serialization using `pickle` over Sockets](./serialization_with_pickle/README.md)
+📂 [Example: Object Serialization using `pickle` over Sockets](https://github.com/sojoudian/BTP405_Winter25_NBB/tree/master/Week05/socketExp/exp2)
 
 ### 3. Concurrent Socket Server Handling Multiple Clients with Threads
 - Shows how to use **threading** to handle multiple client connections concurrently.
 - Uses **thread locks** to protect shared memory (client counter).
 
-📂 [Example: Concurrent Socket Server Handling Multiple Clients with Threads](./multi_threaded_server/README.md)
+📂 [Example: Concurrent Socket Server Handling Multiple Clients with Threads](https://github.com/sojoudian/BTP405_Winter25_NBB/tree/master/Week05/concurrencyExp)
 
 ## Prerequisites
 To run these examples, you need:

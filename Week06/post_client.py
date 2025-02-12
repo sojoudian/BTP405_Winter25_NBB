@@ -12,7 +12,7 @@ json_payload = json.dumps(payload)
 conn = http.client.HTTPConnection(url)
 
 # Send POST reuest
-headers = {'Content-type', 'application/json'}
+headers = {'Content-type': 'application/json'}
 conn.request("POST", "/", body=json_payload, headers=headers)
 
 # Get response

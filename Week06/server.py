@@ -31,7 +31,7 @@ class SimleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(json.dumps({"stored_data": data_store}).encode())
 
 def run_Server():
-    server_address = ('', "8081")
+    server_address = ('', 8081)
     httpd = HTTPServer(server_address, SimleHTTPRequestHandler)
     print('Starting HTTP server on port  8081')
     httpd.serve_forever()

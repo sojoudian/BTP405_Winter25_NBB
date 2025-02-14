@@ -1,11 +1,14 @@
 import http.client
 import json
 import time
+from datetime import datetime
 
 url = 'localhost:8081'
+timestamp = time.time()
+dt = datetime.fromtimestamp(timestamp)
 
 # Sample data to send (change eeach time)
-payload = {"timestamp": time.time(), "message": "Hello from Client!"}
+payload = {"timestamp": dt.isoformat(), "message": "Hello from the Client!"}
 json_payload = json.dumps(payload)
 
 # Create connection to the server

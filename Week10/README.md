@@ -65,6 +65,13 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=6000, debug=True)
 ```
 
+
+# Running the Python Application
+```bash
+python -m venv .env && source .env/bin/activate && pip install --upgrade pip flask
+python app.py
+```
+
 ---
 
 ## 📡 API Endpoints & cURL Examples

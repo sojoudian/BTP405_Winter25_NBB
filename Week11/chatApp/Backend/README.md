@@ -14,5 +14,5 @@ docker run -d --name chatappDB -p 27017:27017 mongo:latest
 ```bash
 docker network create chatapp_network
 docker run -d --name chatappDB --network chatapp_network -p 27017:27017 mongo:latest
-docker run -d --name my-backend --network chatapp_network my-backend
+docker run -d -p 5001:5001 --name my-backend --network chatapp_network my-backend
 ```

@@ -22,9 +22,8 @@ socketio = SocketIO(app,
                    engineio_logger=True)
 
 # Connect to MongoDB
-#mongo_uri = os.getenv('MONGO_URI', 'mongodb://chatapp:27017/chatapp')
-#mongo_uri = "mongodb://chatappDB:27017/chatapp"
-mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost:27017/chatapp')
+mongo_uri = os.getenv('MONGO_URI', 'mongodb://chatappDB:27017/chatapp')
+#mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost:27017/chatapp')
 client = MongoClient(mongo_uri)
 db = client.chatapp
 

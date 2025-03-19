@@ -5,3 +5,6 @@ curl -X POST "http://127.0.0.1:5001/api/register" -H "Content-Type: application/
 ```
 
 ## run the mongoDB
+```bash
+docker run -d --name chatappDB -p 27017:27017 mongo:latest
+```

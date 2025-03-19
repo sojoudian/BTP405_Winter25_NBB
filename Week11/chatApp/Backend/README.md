@@ -13,5 +13,5 @@ docker run -d --name chatappDB -p 27017:27017 mongo:latest
 ## Run mongoDB and Python app using container:
 ```bash
 docker run -d --name chatappDB --network chatapp_network -p 27017:27017 mongo:latest
-docker run -d --name myapp --network chatapp_network my-python-app-image
+docker run -d --name my-backend --network chatapp_network my-backend
 ```
